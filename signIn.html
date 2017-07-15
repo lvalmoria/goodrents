@@ -24,26 +24,25 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-2"></div>
+    <div class="col-md-6 text-left">
+      <img src="https://preview.ibb.co/kWGpVF/goodrentslarge.png" alt="goodrentslarge" id="logo2"><br/>
     </div>
-    <div class="col-md-8 text-center">
-      <img src="https://preview.ibb.co/kWGpVF/goodrentslarge.png" alt="goodrentslarge" id="logo"><br/>
-    </div>
-    <div class="col-md-2">
-      <button type="button" class="btn btn-info" id="signIn">Sign in</button>
-      <button type="button" class="btn btn-info" id="create">Sign up</button>
-    </div>
+    <div class="col-md-3 text-left">
+    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
   </div>
-  <div class="row">
-    <div class="col-md-12 text-center">&nbsp;
-    </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></br>
+  <button type="submit" class="btn btn-default text-left">Submit</button><br/>
+  <div class="col-md-1"></div>
   </div>
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4 text-center"><input class="form-control" type="text" id="input" placeholder="search address or suburb"></input></div>
-    <div class="col-md-4 text-left"><button type="button" class="btn btn-info" id="search">search</button></div>
   </div>
-  
+</form>
+  </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
@@ -55,11 +54,11 @@
       });
       const signIn = document.querySelector('#signIn');
       signIn.addEventListener('click', () => {
-      window.location = "signIn.html";
+      window.location = "http://www.google.com/";
       });
       const create = document.querySelector('#create');
       create.addEventListener('click', () => {
-      window.location = "signUp.html";
+      window.location = "http://goodrents.tech/grt/form-test/";
       });
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
