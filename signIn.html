@@ -36,8 +36,13 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></br>
-  <button type="submit" class="btn btn-default text-left">Submit</button><br/>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+  <button type="submit" class="btn btn-default btn-info text-left">Submit</button><br/>
   <div class="col-md-1"></div>
   </div>
   </div>
@@ -46,20 +51,6 @@
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-    <script>
-      const search = document.querySelector('#search');
-      search.addEventListener('click', () => {
-      window.location = "address.html";
-      });
-      const signIn = document.querySelector('#signIn');
-      signIn.addEventListener('click', () => {
-      window.location = "http://www.google.com/";
-      });
-      const create = document.querySelector('#create');
-      create.addEventListener('click', () => {
-      window.location = "http://goodrents.tech/grt/form-test/";
-      });
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
